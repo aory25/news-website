@@ -3,75 +3,81 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portal Berita</title>
+  <title>Portal Berita Tedra</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <!-- Navbar -->
   <header>
-    <h1>Portal Berita Terkini</h1>
     <nav>
+      <h1>Portal Berita Tedra</h1>
       <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#nasional">Nasional</a></li>
-        <li><a href="#olahraga">Olahraga</a></li>
-        <li><a href="#teknologi">Teknologi</a></li>
         <li><a href="#ekonomi">Ekonomi</a></li>
+        <li><a href="#teknologi">Teknologi</a></li>
+        <li><a href="#tentang">Tentang Saya</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- HOME -->
-  <section id="home">
-    <h2>Berita Utama</h2>
-    <article>
-      <h3>Indonesia Raih Medali di Olimpiade 2024</h3>
-      <p>Atlet bulutangkis Indonesia berhasil membawa pulang medali emas pada Olimpiade Paris 2024...</p>
-      <a href="https://www.kompas.com/sports/read/2024/08/05/indonesia-raih-medali-emas-di-olimpiade-2024" target="_blank">Baca Selengkapnya</a>
-    </article>
+  <!-- Home -->
+  <section id="home" class="hero">
+    <h2>Selamat Datang di Portal Berita</h2>
+    <p>Menyajikan berita terupdate dan terpercaya untuk Anda.</p>
   </section>
 
-  <!-- NASIONAL -->
-  <section id="nasional">
+  <!-- Nasional -->
+  <section id="nasional" class="news-section">
     <h2>Berita Nasional</h2>
-    <article>
-      <h3>Pemerintah Resmikan Jalan Tol Baru di Jawa Tengah</h3>
-      <p>Presiden meresmikan jalan tol sepanjang 35 km yang diharapkan bisa mengurai kemacetan...</p>
-      <a href="https://www.cnnindonesia.com/nasional/20240815/jokowi-resmikan-tol-baru" target="_blank">Baca Selengkapnya</a>
+    <article class="news-item">
+      <h3>Polri Siap Amankan Pilkada Serentak 2025</h3>
+      <p>Kepolisian Republik Indonesia menyatakan kesiapan penuh dalam mengamankan jalannya Pilkada serentak 2025 yang akan digelar di berbagai daerah.</p>
+      <a href="https://nasional.kompas.com/read/2025/08/14/17300051/polri-siap-amankan-pilkada-serentak-2025" target="_blank">Baca Selengkapnya</a>
     </article>
   </section>
 
-  <!-- OLAHRAGA -->
-  <section id="olahraga">
-    <h2>Berita Olahraga</h2>
-    <article>
-      <h3>Manchester United Menang 3-0 di Liga Inggris</h3>
-      <p>Manchester United membuka musim dengan kemenangan besar melawan rival sekota...</p>
-      <a href="https://www.bola.com/inggris/read/20240820/hasil-mu-menang-3-0" target="_blank">Baca Selengkapnya</a>
-    </article>
-  </section>
-
-  <!-- TEKNOLOGI -->
-  <section id="teknologi">
-    <h2>Berita Teknologi</h2>
-    <article>
-      <h3>iPhone 16 Resmi Diluncurkan</h3>
-      <p>Apple merilis iPhone 16 dengan fitur kamera baru dan prosesor lebih cepat...</p>
-      <a href="https://tekno.kompas.com/read/2024/09/12/iphone-16-resmi-diluncurkan" target="_blank">Baca Selengkapnya</a>
-    </article>
-  </section>
-
-  <!-- EKONOMI -->
-  <section id="ekonomi">
+  <!-- Ekonomi -->
+  <section id="ekonomi" class="news-section">
     <h2>Berita Ekonomi</h2>
-    <article>
-      <h3>Rupiah Menguat Terhadap Dolar AS</h3>
-      <p>Mata uang rupiah menguat ke level Rp 15.000 per dolar AS setelah intervensi Bank Indonesia...</p>
-      <a href="https://ekonomi.bisnis.com/read/20240910/rupiah-menguat-terhadap-dolar" target="_blank">Baca Selengkapnya</a>
+    <article class="news-item">
+      <h3>GDP RI Q2 2025 Tumbuh 5.12% YoY</h3>
+      <p>Pertumbuhan ekonomi kuartal kedua Indonesia melonjak ke angka 5,12%, tercepat sejak dua tahun terakhir.</p>
+      <a href="https://www.reuters.com/world/asia-pacific/indonesia-q2-gdp-growth-512-yy-beats-expectations-2025-08-05/" target="_blank">Baca Selengkapnya</a>
     </article>
   </section>
 
+  <!-- Teknologi -->
+  <section id="teknologi" class="news-section">
+    <h2>Berita Teknologi</h2>
+    <article class="news-item">
+      <h3>Satelit Nusantara Lima Meluncur September 2025</h3>
+      <p>Peluncuran satelit internet Nusantara Lima ditunda dan dijadwalkan kembali pada September 2025.</p>
+      <a href="https://inet.detik.com/telecommunication/d-8059227/satelit-nusantara-lima-meluncur-september-hubungkan-ribuan-pulau-ri" target="_blank">Baca Selengkapnya</a>
+    </article>
+  </section>
+
+  <!-- Tentang Saya -->
+  <section id="tentang" class="news-section">
+    <h2>Tentang Saya</h2>
+    <article class="news-item">
+      <h3>Tedra Arila Yusuf</h3>
+      <p>Sekilas tentang penulis dan motivasi membuat website ini.</p>
+      <a href="#tentang-detail">Baca Selengkapnya</a>
+    </article>
+
+    <!-- Detail Tentang Saya -->
+    <div id="tentang-detail" class="detail-box">
+      <h3>Tentang Penulis</h3>
+      <p>Penulis bernama <strong>Tedra Arila Yusuf</strong> yang berasal dari sekolah SMAN 2 Depok. Motif penulis membuat web ini adalah agar menambah sedikit informasi untuk pembaca.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2024 Portal Berita. Semua Hak Dilindungi.</p>
+    <p>© 2025 Portal Berita Tedra. Semua Hak Dilindungi.</p>
   </footer>
+
 </body>
 </html>
